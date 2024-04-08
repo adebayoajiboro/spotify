@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.section,body {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(31, 31, 31);
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: white;
+}
+
+.imgg {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(18, 18, 18);
+}
+
+.imageee {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.parent {
+    width: 50%;
+    height: 145vh;
+    /* background-color: brown; */
+    background-color: rgb(18, 18, 18);
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.log-in {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.all-logo button {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 200px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 30px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 900;
+}
+.all-logo button:hover{
+    border: 2px solid white;
+}
+
+.input1:hover{
+    border: 2px solid white;
+}
+.input2:hover{
+    border: 2px solid white;
+}
+
+.input1, .input2{
+    background-color: black;
+}
+.pppp {
+    color: gray;
+}
+
+.Email {
+    margin-top: 20px;
+    color: white;
+    margin-right: 140px;
+}
+
+input {
+    width: 250px;
+    height: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.input1, .input2{
+    background-color: transparent;
+}
+
+.password {
+    margin-top: 20px;
+    color: white;
+    margin-right: 210px;
+}
+
+.pholder {
+    /* margin-left: 30px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.remenber-div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 160px;
+    gap: 20px;
+    color: white;
+}
+
+.remenber-div span {
+    color: green;
+}
+
+.log-in2 {
+    background-color: rgb(30, 215, 96);
+    color: black;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 200px;
+    margin-left: 160px;
+
+}
+
+.log-in2:hover{
+    transform: scale(1.09);
+}
+
+.log-in2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+
+}
+
+.forget-your-password {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.forget-your-password a:hover{
+    color: rgb(30,215,96);
+}
+
+.forget-your-password a {
+    color: white;
+    font-weight: bolder;
+
+}
+
+.do-you-have-an-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgb(164, 156, 143);
+}
+
+.do-you-have-an-account a {
+    color: white;
+    font-weight: bolder;
+}
+
+.do-you-have-an-account a:hover{
+    color: rgb(30,215,96);
+}
+
+.privacy {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 10px;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(18, 18, 18);
+    margin-top: 1015px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.privacy a {
+    color: white;
+}
