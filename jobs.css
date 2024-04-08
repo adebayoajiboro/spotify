@@ -421,14 +421,32 @@
     justify-content: center;
 }
 
+.parent-sec8 {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    width: 1100px;
+    transform: translateX(50px);
+    padding-left: 100px;
+
+}
+
+.parent-sec8::-webkit-scrollbar{
+    width: 0;
+}
+
 .first-div-sec8 {
-    width: 30%;
     height: 70vh;
     background-color: rgb(0, 100, 80);
     color: white;
     margin-top: 50px;
     padding: 23px;
     border-radius: 30px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+
 }
 
 .second-div-sec8 {
@@ -448,19 +466,18 @@
 .parent-small-circle1-div-sec8 {
     display: flex;
     gap: 10px;
-    padding-top: 57%;
 }
 
 .parent-small-circle2-div-sec8 {
     display: flex;
     gap: 10px;
-    padding-top: 85%;
+    padding-top: 90px;
 }
 
 .parent-small-circle3-div-sec8 {
     display: flex;
     gap: 10px;
-    padding-top: 75%;
+    padding-top: 50px;
 }
 
 .small-circle-div-sec8 {
@@ -471,13 +488,6 @@
     border-radius: 50px;
     display: flex;
     align-items: center;
-}
-
-.parent-sec8 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
 }
 
 .discover-button button {
